@@ -27,7 +27,9 @@ const Layout = ({ children }) => {
   return (
     <>
       <Navbar />
-      <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
+      <Header
+        siteTitle={data.site.siteMetadata?.title || `Twitter Showcase App`}
+      />
       <div
         style={{
           margin: `0 auto`,
@@ -42,7 +44,7 @@ const Layout = ({ children }) => {
             position: "absolute",
             bottom: "0",
             left: "0",
-            height: "100px",
+            height: "50px",
             width: "100%",
             textAlign: "center",
           }}
