@@ -1,4 +1,4 @@
-@import "../components/typography.css";
+@import "../../components/styles/typography.css";
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
