@@ -9,7 +9,6 @@ const random = () => (
     <Seo title="Random Tweets" />
     <h1>Hi from the random tweet page</h1>
     <p>Check out these random Tweets</p>
-    <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
 
