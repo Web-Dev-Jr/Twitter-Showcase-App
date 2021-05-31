@@ -7,6 +7,7 @@ html {
   overflow-y: scroll;
 }
 body {
+  background-color: #000;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -20,10 +21,26 @@ body {
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
 }
+nav {
+  height: 70px;
+  position: sticky;
+  top: 0;
+  background-color: #000;
+}
+.logo {
+  text-decoration: none;
+  float: left;
+  margin: 10px;
+  padding: 0 0 0 20px;
+  text-align: center;
+  font-family: "Montserrat-Medium";
+}
 .links {
   text-decoration: none;
-  margin: 10px;
+  float: right;
+  padding: 0 30px 0 0;
   text-align: center;
+  margin: 20px;
   font-family: "Montserrat-Medium";
 }
 article,
@@ -35,11 +52,19 @@ footer,
 header,
 main,
 menu,
-nav,
 section,
 summary {
   display: block;
 }
+/* header {
+  background-image: url(../../images/SNAX-Media-Banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1250px;
+}
+header img {
+  opacity: 0.5;
+} */
 audio,
 canvas,
 progress,
@@ -601,4 +626,6 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
 }

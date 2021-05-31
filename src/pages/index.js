@@ -9,6 +9,13 @@ import Seo from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
+    <h1
+      styles={{
+        color: "white",
+      }}
+    >
+      More Randomness
+    </h1>
   </Layout>
 )
 
