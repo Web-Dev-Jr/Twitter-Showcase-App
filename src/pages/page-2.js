@@ -1,7 +1,6 @@
 import * as React from "react"
 import { Link } from "gatsby"
 import * as styles from "../components/styles/page2.module.css"
-import ServiceCard from "../components/ServiceCard"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"

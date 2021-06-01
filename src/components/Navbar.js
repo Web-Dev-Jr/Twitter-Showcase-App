@@ -13,7 +13,7 @@ export default class Navbar extends React.Component {
               textDecoration: `none`,
               textDecoration: "none",
               float: "left",
-              margin: "10px 0 10px 0",
+              margin: "15px 0 10px 0",
               textAlign: "center",
               fontFamily: "Montserrat-Medium",
             }}

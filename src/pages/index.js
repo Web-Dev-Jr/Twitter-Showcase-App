@@ -1,21 +1,28 @@
 import * as React from "react"
-import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
-import Navbar from "../components/Navbar"
-
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import Header from "../components/header"
+import DoubleTextCard from "../components/DoubleTextCard"
+import ImgTextCard from "../components/ImgTextCard"
+import ImageBanner from "../components/ImageBanner"
 
 const IndexPage = () => (
   <Layout>
-    <Seo title="Home" />
+    <Header />
+    <DoubleTextCard />
+    <ImgTextCard />
     <h1
-      styles={{
-        color: "white",
+      style={{
+        textAlign: "center",
+        margin: "220px 0px 90px 0px",
       }}
     >
-      More Randomness
+      Our Work
     </h1>
+    <ImageBanner />
+    <ImageBanner />
+    <ImageBanner />
+    <Seo title="Home" />
   </Layout>
 )
 

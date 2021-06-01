@@ -3,7 +3,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   font: 112.5%/1.45em georgia, serif, sans-serif;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   overflow-y: scroll;
 }
 body {
@@ -12,7 +12,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: "Montserrat-Medium", Georgia, serif;
+  font-family: "Montserrat", Georgia, serif !important;
+  color: white;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -22,7 +23,7 @@ body {
   font-feature-settings: "kern", "liga", "clig", "calt";
 }
 nav {
-  height: 70px;
+  height: 80px;
   position: sticky;
   top: 0;
   background-color: #000;
@@ -40,8 +41,68 @@ nav {
   float: right;
   padding: 0 30px 0 0;
   text-align: center;
-  margin: 20px;
+  margin: 25px;
   font-family: "Montserrat-Medium";
+}
+.double-card-div {
+  display: inline-flex;
+  width: 100%;
+  margin-top: 100px;
+  flex-wrap: wrap;
+  gap: 50px;
+  color: white;
+  text-align: center;
+  justify-content: center;
+}
+.double-card-div h1 {
+  font-size: 58px;
+  text-align: left;
+}
+.double-card-div p {
+  font-size: 16px;
+  text-align: left;
+  font-family: "Montserrat-Light";
+}
+.double-card-div div {
+  width: 500px;
+}
+.img-text-card {
+  display: inline-flex;
+  width: 100%;
+  height: 100%;
+  margin-top: 250px;
+  flex-wrap: wrap;
+  gap: 50px;
+  color: white;
+  text-align: center;
+  justify-content: center;
+}
+.img-text-card div {
+  width: 500px;
+}
+.img-text-card p {
+  text-align: left;
+  font-family: "Montserrat-Light";
+  font-size: 16px;
+}
+.img-text-card h1 {
+  font-family: "Montserrat-Bold";
+}
+.img-banner {
+  height: 850px;
+  border: 1px solid black;
+  background-image: url("https://snaxmedia.com/wp-content/uploads/2020/12/G-Tech-Arkansas-Hunting-Trip.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.img-banner-inner-div {
+  width: 500px;
+  margin: 340px 0 0 30px;
+}
+.img-banner-inner-div hr {
+  border-top: 4px solid white;
+  width: 250px;
 }
 article,
 aside,
@@ -56,15 +117,33 @@ section,
 summary {
   display: block;
 }
-/* header {
+header {
   background-image: url(../../images/SNAX-Media-Banner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 1250px;
 }
-header img {
+/* header img {
   opacity: 0.5;
 } */
+.header-service-option-cards div {
+  text-align: center;
+  flex-wrap: wrap;
+  margin: 30px;
+  border: 1px solid white;
+  min-width: 200px;
+}
+.header-service-option-cards {
+  display: inline-flex;
+  width: 100%;
+  margin-top: 100px;
+  border: 1px solid white;
+  justify-content: center;
+}
+.header-service-option-cards p {
+  width: 200px;
+  margin: 0 auto;
+}
 audio,
 canvas,
 progress,
@@ -85,6 +164,8 @@ template {
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
+  color: white;
+  text-decoration: none;
 }
 a:active,
 a:hover {
@@ -140,7 +221,7 @@ sub {
 sup {
   top: -0.5em;
 }
-img {
+/* img {
   border-style: none;
   max-width: 100%;
   margin-left: 0;
@@ -151,7 +232,7 @@ img {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-}
+} */
 svg:not(:root) {
   overflow: hidden;
 }
@@ -205,6 +286,15 @@ input {
 button,
 select {
   text-transform: none;
+  font-family: "Montserrat-bold";
+  font-size: 28px;
+  padding: 15px;
+  border: none;
+}
+button:hover {
+  background-color: #000;
+  color: white;
+  transition: 0.4s ease;
 }
 [type="reset"],
 [type="submit"],
