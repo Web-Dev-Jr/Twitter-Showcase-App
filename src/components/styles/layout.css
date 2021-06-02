@@ -144,6 +144,51 @@ header {
   width: 200px;
   margin: 0 auto;
 }
+.footer-contact-info {
+  display: inline-flex;
+}
+.footer-contact-info h3 {
+  padding-right: 30px;
+  float: left;
+}
+.footer-contact {
+  text-align: left;
+  padding: 50px 0 0 50px;
+  width: 700px;
+}
+.footer-contact h1 {
+  padding: 0px 0 30px 0px;
+  margin-left: 30px;
+}
+.footer-contact h3 {
+  text-align: left;
+  padding: 0 0 10px 35px;
+  letter-spacing: 1px;
+}
+.footer-services {
+  width: 900px;
+  display: inline-flex;
+  margin-right: 0px auto;
+}
+.footer-services div {
+  padding: 30px;
+  width: 250px;
+}
+.footer-services p {
+  text-align: left;
+}
+.footer-services h3 {
+  text-align: left;
+  padding-left: 20px;
+}
+footer {
+  min-height: 200px;
+  display: inline-flex;
+}
+footer div {
+  margin: 2vh auto;
+  height: 200px;
+}
 audio,
 canvas,
 progress,
