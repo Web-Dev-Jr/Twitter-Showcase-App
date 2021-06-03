@@ -1,11 +1,10 @@
-import React, { Component } from "react"
+import React, { useState } from "react"
 
-export default class LightBtn extends Component {
-  render() {
-    return (
-      <div>
-        <button>View Our Work</button>
-      </div>
-    )
-  }
+function LightBtn() {
+  return (
+    <div>
+      <button>View Our Work</button>
+    </div>
+  )
 }
+export default LightBtn

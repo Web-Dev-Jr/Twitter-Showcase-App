@@ -9,77 +9,74 @@ import {
 import ServiceCard from "../components/ServiceCard"
 import LightBtn from "../components/LightBtn"
 
-export default class Header extends React.Component {
-  render() {
-    return (
-      <header
+function Header() {
+  return (
+    <header
+      style={{
+        width: "100%",
+      }}
+    >
+      <div
         style={{
-          width: "100%",
+          margin: `0 auto`,
+          paddingTop: "120px",
+          textAlign: "center",
+          color: "white",
         }}
       >
-        <div
+        <h1
           style={{
-            margin: `0 auto`,
-            paddingTop: "120px",
-            textAlign: "center",
+            marginTop: "200px",
+            fontSize: "84px",
+            fontFamily: "Montserrat-bold",
             color: "white",
           }}
         >
-          <h1
-            style={{
-              marginTop: "200px",
-              fontSize: "84px",
-              fontFamily: "Montserrat-bold",
-              color: "white",
-            }}
-          >
-            Need Some SNAX?
-          </h1>
-          <p
-            style={{
-              fontSize: "18px",
-              fontFamily: "Montserrat",
-              color: "white",
-            }}
-          >
-            SNAX Media is a full-service digital media agency specializing in
-            video production, website design, and digital marketing.
-          </p>
-          <div className="header-service-option-cards">
-            <div id="something">
-              <h1>
-                <FontAwesomeIcon icon={faVideo} />
-              </h1>
-              <h2>Video Production</h2>
-              <p>
-                Captivating video is a great way to inform, communicate, and
-                sell.
-              </p>
-            </div>
-            <div id="something">
-              <h1>
-                <FontAwesomeIcon icon={faFlask} />
-              </h1>
-              <h2>Video Production</h2>
-              <p>
-                Captivating video is a great way to inform, communicate, and
-                sell.
-              </p>
-            </div>
-            <div id="something">
-              <h1>
-                <FontAwesomeIcon icon={faChartLine} />
-              </h1>
-              <h2>Video Production</h2>
-              <p>
-                Captivating video is a great way to inform, communicate, and
-                sell.
-              </p>
-            </div>
+          Need Some SNAX?
+        </h1>
+        <p
+          style={{
+            fontSize: "18px",
+            fontFamily: "Montserrat",
+            color: "white",
+          }}
+        >
+          SNAX Media is a full-service digital media agency specializing in
+          video production, website design, and digital marketing.
+        </p>
+        <div className="header-service-option-cards">
+          <div id="something">
+            <h1>
+              <FontAwesomeIcon icon={faVideo} />
+            </h1>
+            <h2>Video Production</h2>
+            <p>
+              Captivating video is a great way to inform, communicate, and sell.
+            </p>
           </div>
-          <LightBtn />
+          <div id="something">
+            <h1>
+              <FontAwesomeIcon icon={faFlask} />
+            </h1>
+            <h2>Video Production</h2>
+            <p>
+              Captivating video is a great way to inform, communicate, and sell.
+            </p>
+          </div>
+          <div id="something">
+            <h1>
+              <FontAwesomeIcon icon={faChartLine} />
+            </h1>
+            <h2>Video Production</h2>
+            <p>
+              Captivating video is a great way to inform, communicate, and sell.
+            </p>
+          </div>
         </div>
-      </header>
-    )
-  }
+        <LightBtn />
+      </div>
+    </header>
+  )
 }
+
+export default Header
