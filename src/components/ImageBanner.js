@@ -2,7 +2,7 @@ import React, { useState } from "react"
 
 function ImageBanner() {
   return (
-    <div className="img-banner">
+    <div>
       <div className="img-banner-inner-div">
         <h1>G-Tech Apparal</h1>
         <hr />

@@ -96,6 +96,22 @@ nav {
   background-size: cover;
   background-attachment: fixed;
 }
+.img-banner-2 {
+  height: 850px;
+  border: 1px solid black;
+  background-image: url("https://snaxmedia.com/wp-content/uploads/2020/06/SNAX-Web-004.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.img-banner-3 {
+  height: 850px;
+  border: 1px solid black;
+  background-image: url("https://snaxmedia.com/wp-content/uploads/2020/06/SNAX-Web-005.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
 .img-banner-inner-div {
   width: 500px;
   margin: 340px 0 0 30px;
