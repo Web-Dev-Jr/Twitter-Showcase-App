@@ -38,9 +38,9 @@ function Navbar() {
             textDecoration: `none`,
             margin: "10px",
           }}
-          to="/page-2"
+          to="/contact"
         >
-          Search
+          Our Work
         </Link>
         <Link
           style={{
@@ -48,9 +48,9 @@ function Navbar() {
             textDecoration: `none`,
             margin: "10px",
           }}
-          to="/random"
+          to="/our-work"
         >
-          Random Tweets
+          Contact
         </Link>
       </div>
     </nav>
