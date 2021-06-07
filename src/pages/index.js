@@ -28,6 +28,15 @@ const IndexPage = () => (
     <div className="img-banner-3">
       <ImageBanner />
     </div>
+    <div className="img-banner-4">
+      <ImageBanner />
+    </div>
+    <div className="img-banner-5">
+      <ImageBanner />
+    </div>
+    <div className="img-banner-6">
+      <ImageBanner />
+    </div>
     <Seo title="Home" />
   </Layout>
 )

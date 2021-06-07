@@ -112,6 +112,30 @@ nav {
   background-size: cover;
   background-attachment: fixed;
 }
+.img-banner-4 {
+  height: 850px;
+  border: 1px solid black;
+  background-image: url("https://snaxmedia.com/wp-content/uploads/2020/07/Superior-Pool-Service-001.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.img-banner-5 {
+  height: 850px;
+  border: 1px solid black;
+  background-image: url("https://snaxmedia.com/wp-content/uploads/2020/06/SNAX-Web-009.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.img-banner-6 {
+  height: 850px;
+  border: 1px solid black;
+  background-image: url("https://snaxmedia.com/wp-content/uploads/2020/07/Genesis-Systems.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
 .img-banner-inner-div {
   width: 500px;
   margin: 340px 0 0 30px;
